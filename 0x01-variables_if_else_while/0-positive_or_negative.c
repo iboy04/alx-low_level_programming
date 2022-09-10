@@ -7,8 +7,8 @@
  * Number stored in the variable n
  * Return; Always 0 (success)
  */
-int main(void)I
-{
+ int main(void)
+ {
 	int n;
 	
 	srand(time(0));
@@ -29,4 +29,4 @@ int main(void)I
 		printf("%d\n", "is negative\n", n);
 	}
 	return (0);
-}
+  }
