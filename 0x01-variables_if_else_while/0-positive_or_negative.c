@@ -3,13 +3,14 @@
 #include <time.h>
 
 /* more headers goes there */
-
+/**
+ * main - Positive or negative
+ * Return: 0 Postive or negative
+ */
 
 
 /* betty style doc for function main goes there */
-
 int main(void)
-
 {
 		int n;
 			srand(time(0));
@@ -21,7 +22,7 @@ int main(void)
 					}
 						else
 						{
-							if(n=0) 
+							if(n=0)
 							{
 						printf("%d\n", n, "is zero")
 							}
@@ -31,6 +32,5 @@ int main(void)
 							}
 						}
 					/* your code goes there */
-
 					return (0);
 }
