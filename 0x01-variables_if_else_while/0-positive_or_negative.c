@@ -4,33 +4,25 @@
 
 /* more headers goes there */
 /**
- * main - Positive or negative
- * Return: 0 Postive or negative
+ * main - Prints whether n is Positive or negative
+ * Number stored in the variable n
+ * Return; Always 0 (success)
  */
 
 
 /* betty style doc for function main goes there */
 int main(void)
 {
-		int n;
-			srand(time(0));
-				n = rand() - RAND_MAX / 2;
-					n=4;
-					if (n>0)
-					{
-						printf("%d\n", n, "is positive");
-					}
-						else
-						{
-							if(n=0)
-							{
-						printf("%d\n", n, "is zero");
-							}
-							else
-							{
-							printf("%d\n", n, "is negative");
-							}
-						}
-					/* your code goes there */
-					return (0);
+int n;
+srand(time(0))
+n = rand() - RAND_MAX / 2;
+n = 4;
+if (n > 0)
+printf(n, "is positive\n");
+else if (n = 0)
+printf(n, "is zero\n");
+else
+printf(n, "is negative\n")
+/* your code goes there */
+return (0);
 }
