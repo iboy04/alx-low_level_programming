@@ -3,12 +3,12 @@
 #include <stdio.h>
 
 /**
- * main - Prints whether n is Positive or negative
- * Number stored in the variable n
- * Return; Always 0 (success)
- */
- int main(void)
- {
+* main - Prints whether n is Positive or negative
+* Number stored in the variable n
+* Return; Always 0 (success)
+*/
+int main(void)
+{
 	int n;
 	
 	srand(time(0));
@@ -29,4 +29,4 @@
 		printf("%d is negative\n", n);
 	}
 	return (0);
-  }
+}
