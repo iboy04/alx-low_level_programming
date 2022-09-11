@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
-* main - Entry point
+* main - Entry point                                                               
 *
 * Return: Always 0 (Success/correct)
 */
 int main(void)
 {
-	char 1;
+	char i;
 
-	for (i = 'a';i <= '2'; i++)
+	for (i = 'a'; i <= '2'; i++)
 	{
 		putchar(i);
 	}
