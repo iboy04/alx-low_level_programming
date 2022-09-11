@@ -3,21 +3,17 @@
 /**
 * main - Entry point
 *
-* Return: Always 0 (Success/Correct)
+* Return: Always 0 (Success/Correct
 */
 int main(void)
 {
 	char i;
-	char j;
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		putchar(i);
-	}
-	for (j = 'A'; j <= 'Z'; j++)
-	{
-		putchar(j);
+		if (i != 'q' && i != 'e')
+			putchar(i);
 	}
 	putchar('\n');
-	return (0);
+	return(0);
 }
