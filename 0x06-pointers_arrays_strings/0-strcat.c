@@ -23,7 +23,7 @@ while (src[j] != '\0')
 	j++;
 	i++;
 }
-dest[i] = '\0':
+dest[i] = '\0';
 
 return (dest);
 }
