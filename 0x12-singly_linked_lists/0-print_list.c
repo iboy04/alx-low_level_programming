@@ -1,5 +1,4 @@
 #include "lists.h"
-
 /**
  * print_list - prints list.
  * @h: param list
